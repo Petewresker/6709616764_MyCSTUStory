@@ -1,0 +1,210 @@
+body{
+    /*font-family: 'Brush Script MT', cursive;*/
+    background-color: papayawhip;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.Blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+.container-all {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.left-content {
+    flex: 1;
+    border-right: 0.1rem solid #ddd;
+    padding-right: 1rem;
+}
+
+.right-content {
+    flex: 5;
+    padding-left: 1rem;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2rem;
+}
+
+
+
+.Details img {
+    float: left;
+    margin-right: 10px; 
+    margin-left: 60px;
+}
+
+.Details h2 {
+    display: inline-block; 
+}
+
+.Details p {
+    display: inline-block; 
+    font-size: 20px;
+    max-width: 70%;
+    vertical-align: top;
+    clear: both;
+}
+
+.Skill {
+    clear: both; 
+    margin-top: 50px; 
+
+}
+
+.containerSkill {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .programing {width: 70%; background-color: #04AA6D;}
+  .communication {width: 70%; background-color: #2196F3;}
+  .Eng{width: 75%; background-color: #f44336;}
+  .Piano {width: 40%; background-color: #808080;}
+
+legend{
+    font-size: 70px;
+}
+
+form p{
+    font-size: 35px;
+
+}
+
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+
+form img{
+    width: 50%;
+}
+
+.selfVideo{
+    text-align: center;
+    clear: both;
+    margin-top: 15%;
+}
+
+.Navbar{
+    position: sticky;
+    top: 0;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 40%;
+  }
+  
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    left: 50%;
+  }
+  
+  
+  .right::after {
+    left: -16px;
+  }
+  
+  .content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .content h2{
+    font-size: 30px;
+  }
+  
+  .content img{
+    width: 60%;
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .timeline::after {
+    left: 31px;
+    }
+    
+    .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+    .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+  
+    .left::after, .right::after {
+    left: 15px;
+    }
+    
+    .right {
+    left: 0%;
+    }
+  }
+  
